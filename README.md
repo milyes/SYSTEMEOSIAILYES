@@ -1,6 +1,12 @@
 # SYSTEMEOSIAILYES
 
-**SYSTEMEOSIAILYES — Architecture cognitive souveraine**
+![SYSTEMEOSIAILYES Banner](./visuels/banner_systemeosiailyes.png)
+
+**SYSTEMEOSIAILYES — Architecture cognitive souveraine**  
+Auteur : **Zoubirou Mohammed Ilyes (milyes)**  
+ORCID : https://orcid.org/0009-0007-7571-3178
+
+**SYSTEMEOSIAILYES — Architecmture cognitive souveraine**
 Auteur : **Zoubirou Mohammed Ilyes (milyes)**
 ORCID : https://orcid.org/0009-0007-7571-3178
 
