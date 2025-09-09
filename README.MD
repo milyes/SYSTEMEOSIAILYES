@@ -11,7 +11,7 @@ SYSTEMEOSIAILYES est une architecture cognitive distribuée, fondée sur des pri
 ORCID : [0009-0007-7571-3178](https://orcid.org/0009-0007-7571-3178)
 
 ## Fiche officielle
-Télécharge la fiche PDF ici : [SYSTEMEOSIAILYES_Manifeste.pdf](./SYSTEMEOSIAILYES_Manifeste(1).pdf)
+Télécharge la fiche PDF ici : [SYSTEMEOSIAILYES_Manifeste.pdf](.SYSTEMEOSIAILYES_Manifeste(1).pdf)
 
 
 
