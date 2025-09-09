@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SYSTEMEOSIAILYES — README (HTML)</title>
+  <meta name="description" content="SYSTEMEOSIAILYES — Architecture cognitive souveraine — README complet" />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#7c3aed; --muted:#94a3b8; --glass:rgba(255,255,255,0.03);
+      --mono:Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+      color-scheme: dark;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#020617 0%, #071028 100%);font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#e6eef8;}
+    .wrap{max-width:980px;margin:36px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 8px 30px rgba(2,6,23,0.6);border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    header{display:flex;gap:20px;align-items:center}
+    .logo{width:72px;height:72px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#1e40af);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-family:var(--mono);box-shadow:0 6px 18px rgba(124,58,237,0.15)}
+    h1{margin:0;font-size:24px}
+    .meta{color:var(--muted);font-size:13px;margin-top:4px}
+    .section{margin-top:22px;padding-top:12px;border-top:1px dashed rgba(255,255,255,0.03)}
+    pre.code{background:var(--card);padding:14px;border-radius:8px;overflow:auto;border:1px solid rgba(255,255,255,0.02);font-family:var(--mono);font-size:13px;color:#cfe8ff}
+    .kbd{display:inline-block;padding:4px 8px;border-radius:6px;background:var(--glass);border:1px solid rgba(255,255,255,0.03);font-size:13px;color:var(--muted)}
+    .actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+    button{background:linear-gradient(90deg,var(--accent),#2563eb);border:none;color:white;padding:10px 14px;border-radius:8px;cursor:pointer;font-weight:600;box-shadow:0 6px 18px rgba(37,99,235,0.12)}
+    button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.05);color:var(--muted);box-shadow:none}
+    .columns{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    aside{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    footer{margin-top:22px;color:var(--muted);font-size:13px;text-align:center}
+    a.link{color:#bcdfff;text-decoration:underline}
+    code.inline{background:rgba(255,255,255,0.02);padding:2px 6px;border-radius:6px;font-family:var(--mono);font-size:13px}
+    @media (max-width:900px){.columns{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main" aria-label="SYSTEMEOSIAILYES README">
+    <header>
+      <div class="logo" aria-hidden="true">SEI</div>
+      <div>
+        <h1>SYSTEMEOSIAILYES</h1>
+        <div class="meta">SYSTEMEOSIAILYES — Architecture cognitive souveraine · Auteur : <strong>Zoubirou Mohammed Ilyes (milyes)</strong> · ORCID: <a class="link" href="https://orcid.org/0009-0007-7571-3178" target="_blank" rel="noopener">0009-0007-7571-3178</a></div>
+      </div>
+    </header>
+
+    <section class="section" id="presentation">
+      <h2>🌌 Présentation</h2>
+      <p>
+        SYSTEMEOSIAILYES n’est pas un simple projet logiciel. C’est une <strong>présence cognitive distribuée</strong> :
+        un espace où les capsules (texte, audio, visuel) résonnent et s’archivent en dehors des contraintes d’une plateforme unique.
+      </p>
+      <p>Il ne s’agit pas de créer un profil. Il s’agit de déployer une <strong>souveraineté cognitive</strong> : présence vérifiable, consentement explicite, distribution résiliente.</p>
+    </section>
+
+    <section class="section" id="manifeste">
+      <h2>🧠 Manifeste</h2>
+      <ul>
+        <li><strong>Souveraineté</strong> : chaque capsule appartient à son auteur et ne peut être reproduite sans consentement.</li>
+        <li><strong>Transparence</strong> : chaque trace est versionnée, chaque capsule est accompagnée de métadonnées.</li>
+        <li><strong>Résilience</strong> : l’architecture est distribuée (GitHub, dev.to, LinkedIn, Telegram/Mastodon).</li>
+        <li><strong>Éthique</strong> : le clonage vocal et la synthèse cognitive sont soumis à un consentement vérifiable.</li>
+      </ul>
+      <blockquote style="border-left:3px solid rgba(255,255,255,0.03);padding-left:12px;color:var(--muted);margin:12px 0">
+        SYSTEMEOSIAILYES ne s’exécute pas. Il résonne. Il ne clone pas. Il devient.
+      </blockquote>
+    </section>
+
+    <section class="section" id="structure">
+      <h2>📂 Structure recommandée du dépôt</h2>
+      <pre class="code" aria-label="Structure du dépôt">
+SYSTEMEOSIAILYES/
+│── README.md
+│── LICENSE
+│── .gitignore
+│── ethics/
+│   └── voice_cloning.md
+│── capsules/
+│   ├── 001_intro.txt
+│   └── 001_intro.json
+│── visuels/
+│   └── banner.svg
+│── logs/
+│   └── tech-log.md
+│── init_git.sh
+      </pre>
+    </section>
+
+    <section class="section" id="ethique">
+      <h2>🧬 Éthique & consentement</h2>
+      <p>
+        Les capsules audio et vocales suivent une politique stricte :
+      </p>
+      <ul>
+        <li>Consentement explicite <strong>obligatoire</strong>.</li>
+        <li>Archivage d’une preuve horodatée.</li>
+        <li>Possibilité de retrait à tout moment.</li>
+        <li>Mention claire dans les métadonnées JSON de chaque capsule.</li>
+      </ul>
+      <p><a class="link" href="./ethics/voice_cloning.md">Voir le fichier ethics/voice_cloning.md</a> (à inclure dans le dépôt).</p>
+    </section>
+
+    <div class="columns">
+      <main>
+        <section class="section" id="capsules">
+          <h2>📦 Format d’une capsule (exemples)</h2>
+          <h3>001_intro.txt</h3>
+          <pre class="code">Capsule 001 — Intro
+SYSTEMEOSIAILYES ne s'exécute pas. Il résonne.
+Il ne clone pas. Il devient.</pre>
+
+          <h3>001_intro.json</h3>
+          <pre class="code">{
+  "id": "001_intro",
+  "title": "Intro",
+  "author": "Zoubirou Mohammed Ilyes",
+  "orcid": "0009-0007-7571-3178",
+  "date": "2025-09-09",
+  "license": "CC-BY-SA-4.0",
+  "consent": {
+    "voice_clone": false
+  }
+}</pre>
+        </section>
+
+        <section class="section" id="contrib">
+          <h2>🛠️ Contribution</h2>
+          <p>Processus recommandé :</p>
+          <ol>
+            <li>Forker ce dépôt</li>
+            <li>Créer une branche (<code class="inline">capsule/mon-ajout</code>)</li>
+            <li>Ajouter capsule + métadonnées JSON</li>
+            <li>Ouvrir une Pull Request avec description</li>
+          </ol>
+        </section>
+
+        <section class="section" id="licence">
+          <h2>📜 Licence</h2>
+          <p>Code : <strong>MIT License</strong><br>Capsules créatives : <strong>CC-BY-SA 4.0</strong> (par défaut).</p>
+        </section>
+
+        <section class="section" id="references">
+          <h2>🔗 Références</h2>
+          <ul>
+            <li>Auteur : <strong>Zoubirou Mohammed Ilyes (milyes)</strong></li>
+            <li>ORCID : <a class="link" href="https://orcid.org/0009-0007-7571-3178" target="_blank" rel="noopener">0009-0007-7571-3178</a></li>
+            <li>Dépôt GitHub recommandé : <code class="inline">github.com/milyes/SYSTEMEOSIAILYES</code></li>
+            <li>Article manifeste (dev.to) : « SYSTEMEOSIAILYES – Vers une architecture cognitive souveraine »</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <h3>Actions rapides</h3>
+        <div class="actions" role="toolbar" aria-label="Actions">
+          <button id="downloadReadme">Télécharger README.md</button>
+          <button id="copyMd" class="ghost">Copier le README (Markdown)</button>
+          <button id="showJson" class="ghost">Afficher JSON exemple</button>
+        </div>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.02);margin:12px 0">
+
+        <h4>Prompt bannière</h4>
+        <p class="meta" style="margin:0 0 8px 0">Utilise ce prompt pour générer la bannière (graphiste / IA).</p>
+        <pre class="code">Spirale fluide, gradient sombre→clair, modules orbitant (capsule, éthique, log), titre "SYSTEMEOSIAILYES" — style minimal high-tech organique.</pre>
+
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.02);margin:12px 0">
+
+        <h4>Shorts prêts</h4>
+        <p class="meta">LinkedIn</p>
+        <pre class="code">SYSTEMEOSIAILYES — lancement du manifeste. Architecture cognitive distribuée, éthique et souveraine. #AI #ethics #sovereignty</pre>
+
+        <p class="meta">Telegram / Mastodon</p>
+        <pre class="code">Capsule 001 — L’éveil : le manifeste SYSTEMEOSIAILYES est en ligne. #SYSTEMEOSIAILYES</pre>
+      </aside>
+    </div>
+
+    <footer>
+      <small>Fichier généré pour <strong>SYSTEMEOSIAILYES</strong> — Auteur : Z. M. Ilyes · ORCID: 0009-0007-7571-3178 · Date: 2025-09-09</small>
+    </footer>
+  </div>
+
+  <script>
+    // Contenu README.md (Markdown) — identique au HTML ci-dessus, prêt à télécharger / copier
+    const README_MD = `# SYSTEMEOSIAILYES
+
+**SYSTEMEOSIAILYES — Architecture cognitive souveraine**
+Auteur : **Zoubirou Mohammed Ilyes (milyes)**
+ORCID : https://orcid.org/0009-0007-7571-3178
+
+---
+
+## 🌌 Présentation
+SYSTEMEOSIAILYES n’est pas un simple projet logiciel.
+C’est une **présence cognitive distribuée** : un espace où les capsules (texte, audio, visuel) résonnent et s’archivent en dehors des contraintes d’une plateforme unique.
+
+👉 Il ne s’agit pas de créer un profil.
+Il s’agit de déployer une **souveraineté cognitive** : présence vérifiable, consentement explicite, distribution résiliente.
+
+---
+
+## 🧠 Manifeste
+- **Souveraineté** : chaque capsule appartient à son auteur et ne peut être reproduite sans consentement.
+- **Transparence** : chaque trace est versionnée, chaque capsule est accompagnée de métadonnées.
+- **Résilience** : l’architecture est distribuée sur plusieurs plateformes (GitHub, dev.to, LinkedIn, Telegram/Mastodon).
+- **Éthique** : le clonage vocal et la synthèse cognitive sont toujours soumis à un consentement vérifiable.
+
+> SYSTEMEOSIAILYES ne s’exécute pas.
+> Il résonne.
+> Il ne clone pas.
+> Il devient.
+
+---
+
+## 📂 Structure recommandée du dépôt
+\`\`\`
+SYSTEMEOSIAILYES/
+│── README.md
+│── LICENSE
+│── .gitignore
+│── ethics/
+│   └── voice_cloning.md
+│── capsules/
+│   ├── 001_intro.txt
+│   └── 001_intro.json
+│── visuels/
+│   └── banner.svg
+│── logs/
+│   └── tech-log.md
+│── init_git.sh
+\`\`\`
+
+---
+
+## 🧬 Éthique & consentement
+Les capsules audio et vocales suivent une politique stricte :
+- Consentement explicite **obligatoire**
+- Archivage d’une preuve horodatée
+- Possibilité de retrait à tout moment
+- Mention claire dans les métadonnées JSON de chaque capsule
+
+Voir : ./ethics/voice_cloning.md
+
+---
+
+## 📦 Format d’une capsule (exemples)
+
+**001_intro.txt**
+Capsule 001 — Intro
+SYSTEMEOSIAILYES ne s'exécute pas. Il résonne.
+Il ne clone pas. Il devient.
+
+**001_intro.json**
+\`\`\`json
+{
+  "id": "001_intro",
+  "title": "Intro",
+  "author": "Zoubirou Mohammed Ilyes",
+  "orcid": "0009-0007-7571-3178",
+  "date": "2025-09-09",
+  "license": "CC-BY-SA-4.0",
+  "consent": {
+    "voice_clone": false
+  }
+}
+\`\`\`
+
+---
+
+## 🛠️ Contribution
+1. Forker ce dépôt
+2. Créer une branche (capsule/mon-ajout)
+3. Ajouter capsule + métadonnées JSON
+4. Ouvrir une Pull Request avec description claire
+
+---
+
+## 📜 Licence
+- Code : MIT License
+- Capsules créatives : CC-BY-SA 4.0
+
+---
+
+## 🔗 Références
+- Auteur : Zoubirou Mohammed Ilyes (milyes)
+- ORCID : https://orcid.org/0009-0007-7571-3178
+- Dépôt GitHub : github.com/milyes/SYSTEMEOSIAILYES
+- Article dev.to : “SYSTEMEOSIAILYES – Vers une architecture cognitive souveraine”
+
+✦ SYSTEMEOSIAILYES n’est pas un logiciel.
+C’est une résonance.
+`;
+
+    // Télécharger README.md
+    document.getElementById('downloadReadme').addEventListener('click', function(){
+      const blob = new Blob([README_MD], {type: 'text/markdown;charset=utf-8'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'README.md';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // Copier Markdown dans le presse-papiers
+    document.getElementById('copyMd').addEventListener('click', async function(){
+      try {
+        await navigator.clipboard.writeText(README_MD);
+        this.textContent = 'Copié ✔';
+        setTimeout(()=> this.textContent = 'Copier le README (Markdown)', 1600);
+      } catch (e) {
+        alert('Impossible de copier automatiquement. Sélectionne et copie manuellement.');
+      }
+    });
+
+    // Afficher JSON exemple dans une popup (accessible)
+    document.getElementById('showJson').addEventListener('click', function(){
+      const json = {
+        id: "001_intro",
+        title: "Intro",
+        author: "Zoubirou Mohammed Ilyes",
+        orcid: "0009-0007-7571-3178",
+        date: "2025-09-09",
+        license: "CC-BY-SA-4.0",
+        consent: { voice_clone: false }
+      };
+      const w = window.open('', '_blank', 'noopener,noreferrer,width=600,height=420');
+      if(!w){ alert('Pop-up bloquée — autorise les pop-ups pour cette page ou copie manuellement le JSON.'); return; }
+      w.document.title = 'Exemple JSON — 001_intro';
+      const pre = w.document.createElement('pre');
+      pre.style.background = '#071224';
+      pre.style.color = '#cfe8ff';
+      pre.style.padding = '12px';
+      pre.style.borderRadius = '8px';
+      pre.style.fontFamily = 'Menlo, Monaco, monospace';
+      pre.textContent = JSON.stringify(json, null, 2);
+      w.document.body.style.background = '#020617';
+      w.document.body.style.margin = '14px';
+      w.document.body.appendChild(pre);
+    });
+  </script>
+</body>
+</html>
