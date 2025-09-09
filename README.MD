@@ -1,4 +1,5 @@
-.# SYSTEMEOSIAILYES — Manifeste officiel
+
+# SYSTEMEOSIAILYES — Manifeste officiel
 
 ## Vision
 SYSTEMEOSIAILYES est une architecture cognitive distribuée, fondée sur des principes d’éthique, de souveraineté et de transparence. Une intelligence collective, libre et responsable.
@@ -11,14 +12,12 @@ SYSTEMEOSIAILYES est une architecture cognitive distribuée, fondée sur des pri
 ORCID : [0009-0007-7571-3178](https://orcid.org/0009-0007-7571-3178)
 
 ## Fiche officielle
-Télécharge la fiche PDF ici : [SYSTEMEOSIAILYES_Manifeste.pdf](.SYSTEMEOSIAILYES_Manifeste(1).pdf)
-
-
-
+Télécharge la fiche PDF ici : [SYSTEMEOSIAILYES_Manifeste.pdf](./SYSTEMEOSIAILYES_Manifeste.pdf)
 
 ## Logo
 Le logo de NetSecurePro est intégré dans la fiche officielle en haut de page.
-l
+
+---
 
 ## 4. Étapes pratiques
 
